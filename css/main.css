@@ -40,7 +40,7 @@ body {
 
 }
 .titulo {
-  margin-bottom: 180px;
+  margin-bottom: 30px;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: yellow;
   position: absolute;
@@ -103,7 +103,7 @@ body {
 }
 
 .flowers {
-  position: relative;
+  position: absolute;
   transform: scale(0.9);
   /*margin-bottom: 100px;
   */
@@ -126,6 +126,7 @@ body {
   transform-origin: bottom center;
   z-index: 10;
   --fl-speed: 0.8s;
+  opacity: 50%;
 }
 .flower--1 {
   -webkit-animation: moving-flower-1 4s linear infinite;
